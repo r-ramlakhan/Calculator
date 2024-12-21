@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/PrimaryDarkColor</item>
+        <item name="colorOnPrimary">@color/PrimaryLightColor</item>
+
+        <item name="colorSecondary">@color/SecondaryLightColor</item>
+        <item name="colorOnSecondary">@color/PrimaryLightColor</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowBackground">@color/PrimaryLightColor</item>
+    </style>
+
+    <style name="btnStyle" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="backgroundTint">@color/PrimaryLightColor</item>
+        <item name="android:textColor">@color/PrimaryDarkColor</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+</resources>
